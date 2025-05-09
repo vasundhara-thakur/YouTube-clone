@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <header class="header">
+    <nav>
+    <div class="nav-left">
+          <div class="logo">
+            <i class="ri-youtube-fill"></i>
+            <p>YouTube<sup>IN</sup></p>
+          </div>
+    </div>
+    <div class="nav-middle">
+        <input type="text" placeholder="Search" class="search-box" id="searchInput">
+        <i class="ri-search-line"></i>
+        <div><i class="ri-mic-fill"></i></div>
+    </div>
+    <div class="nav-right">
+      <div class="create"><i class="ri-add-line"></i>Create</div>
+      <div><i class="ri-notification-2-line"></i></div>
+        <img class="user" src="https://images.unsplash.com/photo-1562572159-4efc207f5aff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vZGVsfGVufDB8fDB8fHww" alt="user-img">
+    </div> 
+  </nav>
+    <div class="tags">
+      <div class="tag dark">All</div>
+      <div class="tag light">Music</div>
+      <div class="tag light">Nature</div>
+      <div class="tag light">Data Structure</div>
+      <div class="tag light">Ai</div>
+      <div class="tag light">Web Development</div>
+      <div class="tag light">HTML</div>
+      <div class="tag light">CSS</div>
+      <div class="tag light">JavaScript</div>
+      <div class="tag light">Cooking</div>
+    </div>  
+
+  </header>
+ <div class="main-container">
+    <aside class="sidebar">
+      
+      <div class="sidebar-item">
+        <div class="toggler"><i class="ri-menu-fill"></i></div>
+
+        <div class="side-content">
+      <i class="ri-home-4-fill"></i>
+      <a href="#">Home</a>
+      </div>
+
+      <div class="side-content">
+      <i class="ri-compass-3-line"></i>
+      <a href="#">Explore</a>
+      </div>
+
+      <div class="side-content">
+      <i class="ri-video-line"></i>
+      <a href="#">Subscriptions</a>
+      </div>
+
+      <div class="side-content">
+      <i class="ri-user-line"></i>
+      <a href="#">You</a>
+      </div>
+      
+    </div>
+    </aside>
+
+    <main class="videos">
+      <div class="video-card" data-title="Intro to JavaScript">
+      <video controls src="https://media.istockphoto.com/id/1306941887/video/computer-hacker-typing-on-keyboard.mp4?s=mp4-640x640-is&k=20&c=kizE1T8XAOWw1Lr34U8Kd6-_ccfQx6IWunB3SpFqn6M=" alt="laptop"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1289411982/photo/cyber-security-web-development-and-work-in-it-concept.jpg?s=1024x1024&w=is&k=20&c=N1rb-2617cvdBJ6gWrwC-A7zzjQOYWK4xBg-A7JRD1s=" alt="profile img">
+        <h4>Intro to JavaScript</h4>
+      </div>
+        <p>Coding Channel</p>
+        <p>1M views<i class="ri-arrow-drop-right-fill"></i>3 year ago</p>
+      </div>
+      
+      <div class="video-card" data-title="Intro to AI">
+        <video controls src="https://media.istockphoto.com/id/1939196115/video/desktop-chatbot-assisting-business-professionals-in-meeting-room.mp4?s=mp4-640x640-is&k=20&c=_IZPShjB3G-m91K645hyLiznh1H6J_wQjZxuPooT4Io=" alt="robot"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1289411982/photo/cyber-security-web-development-and-work-in-it-concept.jpg?s=1024x1024&w=is&k=20&c=N1rb-2617cvdBJ6gWrwC-A7zzjQOYWK4xBg-A7JRD1s=" alt="profile img">
+        <h4> Intro to AI</h4>
+      </div>
+        <p>Coding Channel</p>
+        <p>370K views<i class="ri-arrow-drop-right-fill"></i>5 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="Web Development">
+        <video controls src="https://media.istockphoto.com/id/1227409011/video/esport-and-gaming-fun-symbol-3d-animation.mp4?s=mp4-640x640-is&k=20&c=N7m78OlWlout95Rc-EQEsLX7fqZAH44XLbcmoN4O7h8=" alt="chip"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1289411982/photo/cyber-security-web-development-and-work-in-it-concept.jpg?s=1024x1024&w=is&k=20&c=N1rb-2617cvdBJ6gWrwC-A7zzjQOYWK4xBg-A7JRD1s=" alt="profile img">
+        <h4>Web Development</h4>
+      </div>
+        <p>Coding Channel</p>
+        <p>800K views<i class="ri-arrow-drop-right-fill"></i>4 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="HTML">
+        <video controls src="https://cdn.pixabay.com/video/2019/10/09/27706-365890968_tiny.mp4" alt="HTML"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1289411982/photo/cyber-security-web-development-and-work-in-it-concept.jpg?s=1024x1024&w=is&k=20&c=N1rb-2617cvdBJ6gWrwC-A7zzjQOYWK4xBg-A7JRD1s=" alt="profile img">
+        <h4>HTML intro</h4>
+      </div>
+        <p>Coding Channel</p>
+        <p>600K views<i class="ri-arrow-drop-right-fill"></i>7 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="CSS">
+        <video controls src="https://cdn.pixabay.com/video/2020/04/18/36503-427607440_large.mp4" alt="Music"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1279763992/photo/healthy-food-for-lower-cholesterol-and-heart-care-shot-on-wooden-table.jpg?s=612x612&w=0&k=20&c=AciLLDoSmYjWZlCwmFiFu8L_wbOmY8ZBxy9y_pLaiGw=" alt="profile img">
+        <h4>CSS intro</h4>
+      </div>
+        <p>Coding Channel</p>
+        <p>25k views<i class="ri-arrow-drop-right-fill"></i>2.5 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="Data Structure">
+        <video controls src="https://media.istockphoto.com/id/1616897621/video/blue-digital-data-lights-technology-background-animation.mp4?s=mp4-640x640-is&k=20&c=FImGWOhf6ZhOhBIGWi5q-pwx14gaBj6umNstPA_h__s=" alt="Music"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1279763992/photo/healthy-food-for-lower-cholesterol-and-heart-care-shot-on-wooden-table.jpg?s=612x612&w=0&k=20&c=AciLLDoSmYjWZlCwmFiFu8L_wbOmY8ZBxy9y_pLaiGw=" alt="profile img">
+        <h4>Data Structure</h4>
+      </div>
+        <p>Coding Channel</p>
+        <p>1M views<i class="ri-arrow-drop-right-fill"></i>2.5 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="Cooking">
+        <video controls src="https://media.istockphoto.com/id/1053477938/video/jug-pouring-glaze-to-cakes-at-pastry-shop.mp4?s=mp4-640x640-is&k=20&c=FrmB_JwFsTnNaRZchkgGFgXQbxQSES6TGicRqaKgqYc=" alt="cup cake"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1279763992/photo/healthy-food-for-lower-cholesterol-and-heart-care-shot-on-wooden-table.jpg?s=612x612&w=0&k=20&c=AciLLDoSmYjWZlCwmFiFu8L_wbOmY8ZBxy9y_pLaiGw=" alt="profile img">
+        <h4>Cup cake recipe</h4>
+      </div>
+        <p>Cooking Channel</p>
+        <p>550K views<i class="ri-arrow-drop-right-fill"></i>8 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="Cooking">
+        <video controls src="https://media.istockphoto.com/id/529764418/video/preparation-of-chocolate.mp4?s=mp4-640x640-is&k=20&c=qbppYnWVTtgPXEt9ambc1fzP4zUVtEZ6Wej3Fym8FCs=" alt="chocolate cube"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1279763992/photo/healthy-food-for-lower-cholesterol-and-heart-care-shot-on-wooden-table.jpg?s=612x612&w=0&k=20&c=AciLLDoSmYjWZlCwmFiFu8L_wbOmY8ZBxy9y_pLaiGw=" alt="profile img">
+        <h4>Making chocolate cube</h4>
+      </div>
+        <p>Cooking Channel</p>
+        <p>2M views<i class="ri-arrow-drop-right-fill"></i>4.5 year ago</p>
+      </div>
+
+      <div class="video-card" data-title="Nature">
+        <video controls src="https://cdn.pixabay.com/video/2019/03/18/22070-325253460_tiny.mp4" alt="Nature"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1279763992/photo/healthy-food-for-lower-cholesterol-and-heart-care-shot-on-wooden-table.jpg?s=612x612&w=0&k=20&c=AciLLDoSmYjWZlCwmFiFu8L_wbOmY8ZBxy9y_pLaiGw=" alt="profile img">
+        <h4>Weather</h4>
+      </div>
+        <p>Nature's presence</p>
+        <p>10M views<i class="ri-arrow-drop-right-fill"></i>5 month ago</p>
+      </div>
+
+      <div class="video-card" data-title="Music">
+        <video controls src="https://media.istockphoto.com/id/1876391204/video/audio-spectrum-waveform-3d-loop-animation-on-black-background.mp4?s=mp4-640x640-is&k=20&c=5oV_VszFwUJlWdiBY_fbjci_6JJGj5guwEi5dSa0eyc=" alt="Music"></video>
+        <div class="title">
+          <img class="profile-img" src="https://media.istockphoto.com/id/1279763992/photo/healthy-food-for-lower-cholesterol-and-heart-care-shot-on-wooden-table.jpg?s=612x612&w=0&k=20&c=AciLLDoSmYjWZlCwmFiFu8L_wbOmY8ZBxy9y_pLaiGw=" alt="profile img">
+        <h4>Song mp-4</h4>
+      </div>
+        <p>Music Player</p>
+        <p>1M views<i class="ri-arrow-drop-right-fill"></i>2.5 year ago</p>
+      </div>
+
+    </main>
+  </div> 
+
+  <script src="script.js"></script>
+</body>
+</html>

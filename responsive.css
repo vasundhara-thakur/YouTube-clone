@@ -1,0 +1,152 @@
+@media (max-width: 768px) {
+
+    nav {
+        left: 0;
+        right: 0;
+        padding: 10px;
+      }
+
+      .nav-middle .ri-search-line {
+        font-size: 22px;
+      }
+  
+      .search-box{ 
+          padding: 7px;
+          width: 300px;
+          font-size: 18px;
+      }
+    
+      .ri-mic-fill {
+        display: none;
+      }
+    
+      .nav-right .create {
+        display: none;
+      }
+  
+      .ri-notification-2-line{
+          font-size: 20px;
+          margin-right: 20px;
+        }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .sidebar-item{
+        left: 2%;
+    }
+  
+    .tags {
+      padding-left: 10px;
+    }
+  
+    .main-container {
+      margin: 0;
+    } 
+    
+    .videos {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        margin-left: 60px;
+    }
+
+    .video-card video {
+        width: 290px;
+    }
+  }
+  
+@media (max-width: 431px) {
+
+   body{
+    width: 100vw;
+    /* overflow: hidden; */
+  } 
+
+  nav{
+    height: 50px;
+    
+  }
+
+  .nav-middle .ri-search-line {
+      font-size: 22px;
+      background-color: #fff;
+      text-align: right;
+      border: none;
+      margin-left: 140px;
+    }
+
+    .logo{
+      margin:0;
+    }
+    .create, .search-box {
+      display: none;
+    }
+
+    .tags{
+      overflow: scroll;
+      white-space: nowrap;
+    }
+
+  .tag {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 10px 2px 2px;
+  
+  }
+
+  .sidebar .toggler{
+      display: none;
+    }
+
+  .sidebar a {
+    display: none;
+  }
+  
+  .sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 0;
+    border-top: 1px solid #333;
+    z-index: 1000;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: flex-end;
+    
+    cursor: pointer;
+    bottom: 0;
+    justify-content: center;
+  }
+
+  .sidebar .sidebar-item i{
+    font-size: 40px;
+    margin-right: 75px;
+  } 
+
+  .main-container {
+    margin: 0 0 70px 0;
+    justify-content: center;
+  } 
+
+  .videos {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin: 0;
+}
+
+   .video-card video {
+      width: 90vw;;
+   }
+
+} 
